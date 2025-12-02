@@ -1,0 +1,682 @@
+2025-07-22 09:57:55,255 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 09:58:11,755 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 09:59:11,756 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 09:59:11,904 - INFO - Đã lấy access_token OK.
+2025-07-22 09:59:12,627 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 09:59:12,628 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 09:59:12,629 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 09:59:13,997 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 09:59:14,441 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 09:59:35,788 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 09:59:35,789 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 09:59:36,177 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 09:59:38,984 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu.
+2025-07-22 09:59:38,998 - INFO - [bvkhanhhoa.vncare.vn] Dữ liệu ban đầu đã có giá trị hợp lệ (không phải 0).
+2025-07-22 09:59:38,998 - INFO - [bvkhanhhoa.vncare.vn] Lấy dữ liệu OK, độ dài: 2063 ký tự.
+2025-07-22 09:59:38,999 - INFO - [bvkhanhhoa.vncare.vn] Nội dung mẫu: [
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_TRPG2"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_PKHDD"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA_NHIETDOI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_DK"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_KHAIHOAN"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DA...
+2025-07-22 09:59:41,141 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,141 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,142 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,142 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,142 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,143 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,143 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,143 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,143 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,144 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,144 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,144 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,144 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,144 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,144 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,145 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,145 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,145 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,145 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,146 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,147 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,148 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,148 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 09:59:41,833 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 09:59:42,522 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 09:59:42,522 - INFO - Tất cả các site đã đẩy dữ liệu thành công trong lần chạy đầu tiên.
+2025-07-22 09:59:42,523 - INFO - 🎉 Job đẩy dữ liệu HIS đã hoàn tất.
+2025-07-22 10:01:00,812 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:01:50,852 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:02:20,853 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:02:20,968 - INFO - Đã lấy access_token OK.
+2025-07-22 10:02:21,634 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:02:21,635 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:02:21,635 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 10:02:23,714 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 10:02:24,434 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:02:46,195 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:02:46,195 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:02:46,570 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:02:49,370 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu.
+2025-07-22 10:02:49,383 - INFO - [bvkhanhhoa.vncare.vn] Dữ liệu ban đầu đã có giá trị hợp lệ (không phải 0).
+2025-07-22 10:02:49,383 - INFO - [bvkhanhhoa.vncare.vn] Lấy dữ liệu OK, độ dài: 2063 ký tự.
+2025-07-22 10:02:49,383 - INFO - [bvkhanhhoa.vncare.vn] Nội dung mẫu: [
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_TRPG2"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_PKHDD"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA_NHIETDOI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_DK"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_KHAIHOAN"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DA...
+2025-07-22 10:02:51,556 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,556 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,557 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,558 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,559 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,560 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,560 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,560 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,560 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,560 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:51,560 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:02:52,258 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:02:52,956 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:02:52,957 - INFO - Tất cả các site đã đẩy dữ liệu thành công trong lần chạy đầu tiên.
+2025-07-22 10:02:52,957 - INFO - 🎉 Job đẩy dữ liệu HIS đã hoàn tất.
+2025-07-22 10:03:57,400 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:04:27,400 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:04:27,502 - INFO - Đã lấy access_token OK.
+2025-07-22 10:04:28,203 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:04:28,203 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:04:28,204 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 10:04:29,457 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 10:04:31,016 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:04:54,708 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:04:54,709 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:04:55,030 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:04:57,867 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu.
+2025-07-22 10:04:57,881 - INFO - [bvkhanhhoa.vncare.vn] Dữ liệu ban đầu đã có giá trị hợp lệ (không phải 0).
+2025-07-22 10:04:57,881 - INFO - [bvkhanhhoa.vncare.vn] Lấy dữ liệu OK, độ dài: 2063 ký tự.
+2025-07-22 10:04:57,881 - INFO - [bvkhanhhoa.vncare.vn] Nội dung mẫu: [
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_TRPG2"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_PKHDD"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA_NHIETDOI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_DK"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_KHAIHOAN"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DA...
+2025-07-22 10:05:00,034 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,034 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,034 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,035 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,036 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,037 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,038 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,038 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,038 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,038 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,038 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,038 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,039 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,039 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,039 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,039 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,039 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không có 'KETQUA' hợp lệ. Bỏ qua.
+2025-07-22 10:05:00,660 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:05:01,337 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:05:01,337 - INFO - Tất cả các site đã đẩy dữ liệu thành công trong lần chạy đầu tiên.
+2025-07-22 10:05:01,337 - INFO - 🎉 Job đẩy dữ liệu HIS đã hoàn tất.
+2025-07-22 10:07:17,424 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:08:17,426 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:08:17,530 - INFO - Đã lấy access_token OK.
+2025-07-22 10:08:18,724 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:08:18,725 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:08:18,725 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 10:08:19,846 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 10:08:20,486 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:08:42,172 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:08:42,172 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:08:42,519 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:08:45,332 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu.
+2025-07-22 10:08:45,345 - INFO - [bvkhanhhoa.vncare.vn] Dữ liệu ban đầu đã có giá trị hợp lệ (không phải 0).
+2025-07-22 10:08:45,345 - INFO - [bvkhanhhoa.vncare.vn] Lấy dữ liệu OK, độ dài: 2063 ký tự.
+2025-07-22 10:08:45,345 - INFO - [bvkhanhhoa.vncare.vn] Nội dung mẫu: [
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_TRPG2"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_PKHDD"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA_NHIETDOI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_DK"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_KHAIHOAN"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DA...
+2025-07-22 10:08:47,510 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,511 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,511 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,512 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,512 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,513 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,513 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,514 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,514 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,515 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,516 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,517 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,518 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,518 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,518 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:47,518 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:08:48,320 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:08:49,360 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshbX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:08:49,361 - INFO - Tất cả các site đã đẩy dữ liệu thành công trong lần chạy đầu tiên.
+2025-07-22 10:08:49,361 - INFO - 🎉 Job đẩy dữ liệu HIS đã hoàn tất.
+2025-07-22 10:13:18,027 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:14:18,028 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:14:18,175 - INFO - Đã lấy access_token OK.
+2025-07-22 10:14:18,842 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:14:18,842 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:14:18,843 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 10:14:20,607 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 10:14:26,277 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:14:47,158 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:14:47,158 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:14:47,584 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:14:50,327 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu.
+2025-07-22 10:14:50,355 - INFO - [bvkhanhhoa.vncare.vn] Dữ liệu ban đầu đã có giá trị hợp lệ (không phải 0).
+2025-07-22 10:14:50,355 - INFO - [bvkhanhhoa.vncare.vn] Lấy dữ liệu OK, độ dài: 2063 ký tự.
+2025-07-22 10:14:50,355 - INFO - [bvkhanhhoa.vncare.vn] Nội dung mẫu: [
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_TRPG2"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_PKHDD"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA_NHIETDOI"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_DK"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_QTI_KHAIHOAN"
+    },
+    {
+        "HIS_DATA": "HIS_DATA_KHA"
+    },
+    {
+        "HIS_DATA": "HIS_DA...
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,356 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,357 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,357 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,357 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,357 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,358 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,359 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,360 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,360 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,360 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,360 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,360 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:50,360 - WARNING - [bvkhanhhoa.vncare.vn] Khối dữ liệu không chứa key 'KETQUA'. Bỏ qua.
+2025-07-22 10:14:51,054 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:14:51,631 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:14:51,633 - INFO - Tất cả các site đã đẩy dữ liệu thành công trong lần chạy đầu tiên.
+2025-07-22 10:14:51,633 - INFO - 🎉 Job đẩy dữ liệu HIS đã hoàn tất.
+2025-07-22 10:19:43,111 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:19:53,878 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:20:23,879 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:20:24,005 - INFO - Đã lấy access_token OK.
+2025-07-22 10:20:24,701 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:20:24,702 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:20:24,703 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 10:20:26,384 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 10:20:26,734 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:20:48,438 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:20:48,439 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:20:48,770 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:20:51,531 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu. Bắt đầu chờ 3 phút để dữ liệu tải...
+2025-07-22 10:23:51,532 - INFO - [bvkhanhhoa.vncare.vn] Đã chờ 3 phút. Bắt đầu lấy dữ liệu từ ô KẾT QUẢ.
+2025-07-22 10:23:51,534 - ERROR - [bvkhanhhoa.vncare.vn] Lỗi WebDriver (có thể do trình duyệt/driver không tương thích hoặc không tìm thấy): Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=138.0.7204.158); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7bb98e925+77845]
+	GetHandleVerifier [0x0x7ff7bb98e980+77936]
+	(No symbol) [0x0x7ff7bb749cda]
+	(No symbol) [0x0x7ff7bb735f35]
+	(No symbol) [0x0x7ff7bb75aabe]
+	(No symbol) [0x0x7ff7bb7cfeb5]
+	(No symbol) [0x0x7ff7bb7f0432]
+	(No symbol) [0x0x7ff7bb7c86a3]
+	(No symbol) [0x0x7ff7bb791791]
+	(No symbol) [0x0x7ff7bb792523]
+	GetHandleVerifier [0x0x7ff7bbc6683d+3059501]
+	GetHandleVerifier [0x0x7ff7bbc60bfd+3035885]
+	GetHandleVerifier [0x0x7ff7bbc803f0+3164896]
+	GetHandleVerifier [0x0x7ff7bb9a8c2e+185118]
+	GetHandleVerifier [0x0x7ff7bb9b053f+216111]
+	GetHandleVerifier [0x0x7ff7bb9972d4+113092]
+	GetHandleVerifier [0x0x7ff7bb997489+113529]
+	GetHandleVerifier [0x0x7ff7bb97e288+10616]
+	BaseThreadInitThunk [0x0x7ffe0997e8d7+23]
+	RtlUserThreadStart [0x0x7ffe0ac7c34c+44]
+
+2025-07-22 10:23:51,534 - WARNING - [bvkhanhhoa.vncare.vn] Không có dữ liệu hoặc lỗi Selenium/đăng nhập. Thêm vào danh sách retry.
+2025-07-22 10:23:52,211 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:23:52,212 - WARNING - Có 1 site bị lỗi trong lần chạy đầu tiên. (bvkhanhhoa.vncare.vn). Sẽ thử lại sau 5 phút.
+2025-07-22 10:23:52,843 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:24:29,669 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:25:29,671 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:25:29,778 - INFO - Đã lấy access_token OK.
+2025-07-22 10:25:30,485 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:25:30,486 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:25:30,486 - INFO - 👉 Bắt đầu xử lý site: bvkhanhhoa.vncare.vn
+2025-07-22 10:25:31,817 - INFO - [bvkhanhhoa.vncare.vn] Mở trang đăng nhập: https://bvkhanhhoa.vncare.vn/vnpthis/
+2025-07-22 10:25:32,284 - INFO - [bvkhanhhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:25:53,894 - WARNING - [bvkhanhhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:25:53,894 - INFO - [bvkhanhhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvkhanhhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:25:54,278 - INFO - [bvkhanhhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:25:57,418 - INFO - [bvkhanhhoa.vncare.vn] Đã click nút Lấy dữ liệu. Bắt đầu chờ 3 phút để dữ liệu tải...
+2025-07-22 10:29:03,351 - INFO - 🚀 Scheduler đã khởi động. Đang chờ chạy lúc 09:31 sáng mỗi ngày...
+2025-07-22 10:30:03,352 - INFO - 🎯 Bắt đầu job đẩy dữ liệu HIS...
+2025-07-22 10:30:03,517 - INFO - Đã lấy access_token OK.
+2025-07-22 10:30:04,234 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:30:04,235 - INFO - =========== BẮT ĐẦU LẦN CHẠY ĐẦU TIÊN ===========
+2025-07-22 10:30:04,236 - INFO - 👉 Bắt đầu xử lý site: bvdakhoa.vncare.vn
+2025-07-22 10:30:05,599 - INFO - [bvdakhoa.vncare.vn] Mở trang đăng nhập: https://bvdakhoa.vncare.vn/vnpthis/
+2025-07-22 10:30:05,993 - INFO - [bvdakhoa.vncare.vn] Đã điền tài khoản, mật khẩu. Đợi login...
+2025-07-22 10:30:27,746 - WARNING - [bvdakhoa.vncare.vn] Đăng nhập thành công nhưng không tìm thấy phần tử xác nhận trên trang chính.
+2025-07-22 10:30:27,747 - INFO - [bvdakhoa.vncare.vn] Chuyển sang trang DaySanLuong: https://bvdakhoa.vncare.vn/vnpthis/main/manager.jsp?func=../danhmuc/DaySanLuong
+2025-07-22 10:30:28,177 - INFO - [bvdakhoa.vncare.vn] Đã nhập ngày đẩy: 21/07/2025
+2025-07-22 10:30:36,767 - INFO - [bvdakhoa.vncare.vn] Đã click nút Lấy dữ liệu. Bắt đầu chờ 3 phút để dữ liệu tải...
+2025-07-22 10:33:36,768 - INFO - [bvdakhoa.vncare.vn] Đã chờ 3 phút. Bắt đầu lấy dữ liệu từ ô KẾT QUẢ.
+2025-07-22 10:33:43,479 - INFO - [bvdakhoa.vncare.vn] Lấy dữ liệu OK, độ dài: 77640 ký tự.
+2025-07-22 10:33:43,479 - INFO - [bvdakhoa.vncare.vn] Nội dung mẫu: [
+    {
+        "HIS_DATA": "HIS_DATA_BGG",
+        "KETQUA": [
+            {
+                "DATA": "0",
+                "MA_SPDV": "HISAB1VITVIT001",
+                "MA_TINH": "19",
+                "MA_CSYT": "19003",
+                "CUM_DULIEU_ID": "90,99,155",
+                "CO_GIUONG": "1",
+                "SO_GIUONG": "279",
+                "SO_BENHNHAN": "550",
+                "SO_LK_BH_NGT": "392",
+                "SO_LK_BH_NT": "81",
+                "SO_LK_DV_NGT": "17",
+          ...
+2025-07-22 10:33:43,484 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:43,930 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC075A2123810E0635F069F0A9BE1","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:43,930 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:44,244 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC07B3EE33815E0635F069F0AFC11","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:44,246 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:44,529 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC07FCBCA3819E0635F069F0AB366","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:44,530 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:44,815 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0841138381DE0635F069F0A4CF1","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:44,816 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:45,079 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC088200C3821E0635F069F0A5F12","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:45,080 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:45,345 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC08C4AEB3826E0635F069F0A77B8","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:45,346 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:45,609 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC090234F382AE0635F069F0A9C11","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:45,610 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:45,892 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC094853B382EE0635F069F0A3A0E","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:45,893 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:46,138 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0983F2F3832E0635F069F0A601A","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:46,138 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:46,413 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC09C6B313837E0635F069F0A9651","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:46,414 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:46,654 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0A02CDF383BE0635F069F0AD7EA","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:46,655 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:46,920 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0A443BC383FE0635F069F0ABEDD","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:46,921 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:47,202 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0A870F93843E0635F069F0A93FD","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:47,202 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:47,472 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0ACA5DB3848E0635F069F0A9E50","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:47,473 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:47,735 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0B09655384EE0635F069F0A8EC5","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:47,736 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:48,032 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0B521B13852E0635F069F0A0272","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:48,032 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:48,279 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0B8EABE3856E0635F069F0A5B7F","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:48,279 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:48,515 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0BC9920385BE0635F069F0ACF4D","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:48,515 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:48,758 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0C05460385FE0635F069F0A329C","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:48,758 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:49,004 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0C413833863E0635F069F0A75D6","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:49,005 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:49,281 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0C854123867E0635F069F0A7425","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:49,282 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:49,554 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0CC6524386CE0635F069F0A453A","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:49,555 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:49,786 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0CFFBC63870E0635F069F0AAFCB","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:49,786 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:50,021 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0D3A6DC3874E0635F069F0A02FA","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:50,021 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:50,270 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0D766FF3878E0635F069F0A4313","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:50,271 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:50,514 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0DB14F1387CE0635F069F0AF6A9","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:50,514 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:50,718 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0DE46C13881E0635F069F0AA463","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:50,719 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:50,970 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0E1DB253885E0635F069F0A3012","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:50,970 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:51,217 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0E5D8E23889E0635F069F0A325E","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:51,217 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:51,428 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0E90AB3388DE0635F069F0A22A0","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:51,428 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:51,683 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0ECEA373892E0635F069F0A4533","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:51,684 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:51,962 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0F0BCD03896E0635F069F0A9094","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:51,963 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:52,364 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0F6661F389AE0635F069F0A0B83","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:52,366 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:52,617 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0FB2E74389EE0635F069F0A4333","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:52,619 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:52,857 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC0FED6D738A3E0635F069F0AB8F5","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:52,857 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:53,093 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC10288F738A7E0635F069F0AE680","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:53,093 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:53,332 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC106215B38ABE0635F069F0AB0B6","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:53,333 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:53,584 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC109EF3038AFE0635F069F0AC280","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:53,586 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:53,824 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC10DA76D38B5E0635F069F0A0AAD","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:53,824 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:54,073 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1115D5738B9E0635F069F0A74BD","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:54,073 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:54,312 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1150B2338BDE0635F069F0AEB22","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:54,313 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:54,645 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC119F1B038C1E0635F069F0A0221","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:54,646 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:54,971 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC11E6C9038C6E0635F069F0A89FF","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:54,972 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:55,182 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1225DAC38CAE0635F069F0AB6D7","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:55,183 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:55,465 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC12631A338CEE0635F069F0A04B1","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:55,465 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:55,717 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC12A6DBF38D2E0635F069F0AC8CA","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:55,717 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:55,974 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC12E779738D7E0635F069F0ADEA1","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:55,974 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:56,255 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC132A09838DBE0635F069F0AB7A4","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:56,256 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:56,529 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC136D05538DFE0635F069F0AA825","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:56,529 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:56,853 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC13BA2AB38E3E0635F069F0AF642","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:56,853 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:57,077 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC13F42C538E8E0635F069F0A57B9","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:57,078 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:57,332 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1430E2A38ECE0635F069F0AACFC","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:57,333 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:57,588 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1470CF238F0E0635F069F0AAFA1","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:57,588 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:57,813 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC14A885B38F4E0635F069F0A52C6","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:57,813 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:58,125 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC14EC88838F8E0635F069F0A1231","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:58,126 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:58,409 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC15354B838FDE0635F069F0AA82F","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:58,410 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:58,672 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1579C013901E0635F069F0A62B2","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:58,672 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:59,004 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC15C6CCA3905E0635F069F0AB1C7","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:59,005 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:59,271 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC160B5BC390AE0635F069F0A48C2","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:59,272 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:59,521 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC164789A390EE0635F069F0AC768","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:59,522 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:33:59,777 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC168855C3912E0635F069F0ADBA9","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:33:59,777 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:00,038 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC16C1B283916E0635F069F0A25F8","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:00,039 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:00,289 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1703F92391BE0635F069F0A4391","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:00,289 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:00,573 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1745ECD391FE0635F069F0A236E","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:00,574 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:00,872 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC178F0843925E0635F069F0AB2AE","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:00,873 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:01,110 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC17CA8FE3929E0635F069F0AF925","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:01,110 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:01,384 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC180D726392EE0635F069F0AED45","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:01,384 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:01,702 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC185B28A3932E0635F069F0A32FA","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:01,702 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:02,038 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC18AF3603936E0635F069F0AF1E8","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:02,038 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:02,343 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC18F754C393AE0635F069F0AB146","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:02,343 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:02,641 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC19405F7393FE0635F069F0A01A7","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:02,641 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:02,912 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1983A603943E0635F069F0ACC2E","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:02,913 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:03,155 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC19BFC393947E0635F069F0A0A0B","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:03,156 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:03,385 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC19F9364394DE0635F069F0AD6FA","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:03,386 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:03,659 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1A3A2EC3952E0635F069F0AA696","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:03,659 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:03,911 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1A71F113956E0635F069F0A2AAB","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:03,912 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:04,186 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1ABA989395AE0635F069F0ABF17","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:04,187 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:04,493 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1B039B9395FE0635F069F0A710F","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:04,494 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:04,738 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1B4238E3963E0635F069F0A68E0","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:04,739 - INFO - [bvdakhoa.vncare.vn] ➡️ Push request for item: 19003-2025-07-21
+2025-07-22 10:34:05,025 - INFO - [bvdakhoa.vncare.vn] ⬅️ Push response [200]: {"NGAY_SOLIEU":"2025-07-21T00:00:00.000Z","MA_SPDV":"HISAB1VITVIT001","SO_GIUONG":279,"SO_BENHNHAN":550,"SO_LK_BH_NGT":392,"SO_LK_BH_NT":81,"SO_LK_DV_NGT":17,"SO_LK_DV_NT":1,"MA_CSYT":"19003","MA_TINH":"19","CO_GIUONG":1,"TRANSACTION_ID":"3A7CC1B891393967E0635F069F0A1AB4","IS_TEST":1,"CUM_DULIEU_ID":"90,99,155"}
+2025-07-22 10:34:05,767 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:34:06,469 - ERROR - Lỗi gửi Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot7540006303:AAGPx4NvOOpJSlshX42W_0YvVrJDuTdznY/sendMessage
+2025-07-22 10:34:06,470 - INFO - Tất cả các site đã đẩy dữ liệu thành công trong lần chạy đầu tiên.
+2025-07-22 10:34:06,470 - INFO - 🎉 Job đẩy dữ liệu HIS đã hoàn tất.
