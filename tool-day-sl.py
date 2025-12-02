@@ -400,7 +400,7 @@ def main_task():
 
 # --- LẬP LỊCH CHẠY HÀNG NGÀY ---
 # Lập lịch chạy job vào 02:30 sáng mỗi ngày
-# schedule.every().day.at("02:00").do(main_task)
+schedule.every().day.at("02:00").do(main_task)
 main_task()
 logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 02:30 sáng mỗi ngày...")
 
