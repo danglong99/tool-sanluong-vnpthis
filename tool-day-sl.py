@@ -124,7 +124,8 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
     Trả về chuỗi JSON thô nếu thành công, ngược lại trả về None.
     """
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless")  # Chạy Chrome ở chế độ ẩn
+    options.add_argument("--headless=new")  # Chạy Chrome ở chế độ ẩn
+    options.add_argument("--remote-allow-origins=*")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.page_load_strategy = "eager" # Tăng tốc độ tải trang
