@@ -163,6 +163,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         )
 
         if "vnpthis/main/main.jsp" not in driver.current_url and "manager.jsp" not in driver.current_url:
+            logging.info(driver.current_url)
             logging.error(f"[{site['site']}] Đăng nhập thất bại hoặc không chuyển hướng đến trang chính HIS. URL hiện tại: {driver.current_url}")
             return None
 
