@@ -190,7 +190,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         ActionChains(driver).move_to_element(btn_get).click().perform()
 
         # Sau đó, chờ thêm tối đa 90 giây để textarea có dữ liệu
-        WebDriverWait(driver, 600).until(
+        WebDriverWait(driver, 900).until(
             lambda d: d.find_element(By.ID, "txtKETQUA").get_attribute("value").strip() != ""
         )
         ketqua = driver.find_element(By.ID, "txtKETQUA").get_attribute("value").strip()
