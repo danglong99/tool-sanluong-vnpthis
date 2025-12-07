@@ -157,13 +157,12 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         logging.info(f"[{site['site']}] Đã điền thông tin đăng nhập và gửi. Đang chờ chuyển hướng...")
 
         # Chờ đến khi URL không còn là trang SSO (nếu có) hoặc chuyển đến trang chính của HIS
-        WebDriverWait(driver, 30).until(
+        WebDriverWait(driver, 60).until(
             lambda d: not d.current_url.startswith("https://ptsso.vncare.vn") and \
                       ("vnpthis" in d.current_url or "manager.jsp" in d.current_url)
         )
 
         if "vnpthis/main/main.jsp" not in driver.current_url and "manager.jsp" not in driver.current_url:
-            logging.info(driver.current_url)
             logging.error(f"[{site['site']}] Đăng nhập thất bại hoặc không chuyển hướng đến trang chính HIS. URL hiện tại: {driver.current_url}")
             return None
 
