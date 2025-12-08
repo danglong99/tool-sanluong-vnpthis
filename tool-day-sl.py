@@ -125,7 +125,8 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
     Trả về chuỗi JSON thô nếu thành công, ngược lại trả về None.
     """
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless")  # Chạy Chrome ở chế độ ẩn
+    options.add_argument("--headless=new")  # Chạy Chrome ở chế độ ẩn
+    options.add_argument("--remote-allow-origins=*")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.page_load_strategy = "eager" # Tăng tốc độ tải trang
@@ -157,7 +158,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         logging.info(f"[{site['site']}] Đã điền thông tin đăng nhập và gửi. Đang chờ chuyển hướng...")
 
         # Chờ đến khi URL không còn là trang SSO (nếu có) hoặc chuyển đến trang chính của HIS
-        WebDriverWait(driver, 30).until(
+        WebDriverWait(driver, 60).until(
             lambda d: not d.current_url.startswith("https://ptsso.vncare.vn") and \
                       ("vnpthis" in d.current_url or "manager.jsp" in d.current_url)
         )
@@ -190,7 +191,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         ActionChains(driver).move_to_element(btn_get).click().perform()
 
         # Sau đó, chờ thêm tối đa 90 giây để textarea có dữ liệu
-        WebDriverWait(driver, 600).until(
+        WebDriverWait(driver, 900).until(
             lambda d: d.find_element(By.ID, "txtKETQUA").get_attribute("value").strip() != ""
         )
         ketqua = driver.find_element(By.ID, "txtKETQUA").get_attribute("value").strip()
@@ -401,9 +402,9 @@ def main_task():
 
 # --- LẬP LỊCH CHẠY HÀNG NGÀY ---
 # Lập lịch chạy job vào 02:30 sáng mỗi ngày
-schedule.every().day.at("02:00").do(main_task)
-main_task()
-logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 02:30 sáng mỗi ngày...")
+schedule.every().day.at("17:00").do(main_task)
+#main_task()
+logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 17:00 mỗi ngày...")
 
 # Vòng lặp chính để chạy các job đã được lập lịch
 while True:
