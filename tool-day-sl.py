@@ -44,7 +44,8 @@ SITES = [
     {"site": "buudienhospital.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
     {"site": "bvbinhthuan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
     {"site": "bvcaobang.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvnghean.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"}
+    {"site": "bvnghean.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    {"site": "bvhungyen.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"}
 ]
 
 # URLs cho các dịch vụ
