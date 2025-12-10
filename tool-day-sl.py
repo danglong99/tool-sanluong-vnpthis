@@ -20,31 +20,31 @@ import schedule
 # --- CẤU HÌNH CHUNG ---
 # Danh sách các bệnh viện/site cần xử lý
 SITES = [
-    {"site": "bvnguyentrai.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "laophoilongan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "dakhoahanam.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "phusannhiquangnam.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "dakhoabuudien.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvmathanam.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvvinhphuc.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvyhct.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvtamthan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvphoi.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvquany.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "his.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvnhihaiduong.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvdakhoa.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvlamdong.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvthaibinh.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvbinhduong.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvkhanhhoa.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvlacvietpy.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},    
-    {"site": "bvhatinh.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "vnpt-his.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "buudienhospital.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvbinhthuan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvcaobang.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
-    {"site": "bvnghean.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvnguyentrai.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "laophoilongan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "dakhoahanam.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "phusannhiquangnam.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "dakhoabuudien.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvmathanam.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvvinhphuc.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvyhct.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvtamthan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvphoi.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvquany.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "his.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvnhihaiduong.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvdakhoa.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvlamdong.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvthaibinh.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvbinhduong.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvkhanhhoa.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvlacvietpy.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvhatinh.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "vnpt-his.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "buudienhospital.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvbinhthuan.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvcaobang.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
+    #{"site": "bvnghean.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"},
     {"site": "bvhungyen.vncare.vn", "username": "DAYSANLUONG_HISL2", "password": "SlCt2O25@A4!z-@"}
 ]
 
@@ -191,7 +191,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         ActionChains(driver).move_to_element(btn_get).click().perform()
 
         # Sau đó, chờ thêm tối đa 90 giây để textarea có dữ liệu
-        WebDriverWait(driver, 900).until(
+        WebDriverWait(driver, 600).until(
             lambda d: d.find_element(By.ID, "txtKETQUA").get_attribute("value").strip() != ""
         )
         ketqua = driver.find_element(By.ID, "txtKETQUA").get_attribute("value").strip()
@@ -213,9 +213,15 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
             driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         return None
     except WebDriverException as e:
+        # Chụp ảnh màn hình lỗi để debug
+        if driver:
+            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         logging.error(f"[{site['site']}] Lỗi WebDriver (có thể do trình duyệt hoặc driver): {e}")
         return None
     except Exception as e:
+        # Chụp ảnh màn hình lỗi để debug
+        if driver:
+            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         logging.error(f"[{site['site']}] Lỗi không xác định trong run_selenium: {e}")
         return None
     finally:
