@@ -137,7 +137,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
     try:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
-        driver.set_page_load_timeout(90) # Tăng timeout tải trang để an toàn hơn
+        driver.set_page_load_timeout(150) # Tăng timeout tải trang để an toàn hơn
 
         login_url = LOGIN_URL.format(site["site"])
         data_url = DATA_URL.format(site["site"])
@@ -402,8 +402,8 @@ def main_task():
 
 # --- LẬP LỊCH CHẠY HÀNG NGÀY ---
 # Lập lịch chạy job vào 02:30 sáng mỗi ngày
-schedule.every().day.at("17:00").do(main_task)
-#main_task()
+#schedule.every().day.at("17:00").do(main_task)
+main_task()
 logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 17:00 mỗi ngày...")
 
 # Vòng lặp chính để chạy các job đã được lập lịch
