@@ -158,7 +158,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         logging.info(f"[{site['site']}] Đã điền thông tin đăng nhập và gửi. Đang chờ chuyển hướng...")
 
         # Chờ đến khi URL không còn là trang SSO (nếu có) hoặc chuyển đến trang chính của HIS
-        WebDriverWait(driver, 60).until(
+        WebDriverWait(driver, 200).until(
             lambda d: not d.current_url.startswith("https://ptsso.vncare.vn") and \
                       ("vnpthis" in d.current_url or "manager.jsp" in d.current_url)
         )
@@ -191,7 +191,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         ActionChains(driver).move_to_element(btn_get).click().perform()
 
         # Sau đó, chờ thêm tối đa 90 giây để textarea có dữ liệu
-        WebDriverWait(driver, 300).until(
+        WebDriverWait(driver, 900).until(
             lambda d: d.find_element(By.ID, "txtKETQUA").get_attribute("value").strip() != ""
         )
         ketqua = driver.find_element(By.ID, "txtKETQUA").get_attribute("value").strip()
