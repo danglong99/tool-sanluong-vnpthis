@@ -158,7 +158,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         logging.info(f"[{site['site']}] Đã điền thông tin đăng nhập và gửi. Đang chờ chuyển hướng...")
 
         # Chờ đến khi URL không còn là trang SSO (nếu có) hoặc chuyển đến trang chính của HIS
-        WebDriverWait(driver, 60).until(
+        WebDriverWait(driver, 200).until(
             lambda d: not d.current_url.startswith("https://ptsso.vncare.vn") and \
                       ("vnpthis" in d.current_url or "manager.jsp" in d.current_url)
         )
@@ -191,7 +191,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
         ActionChains(driver).move_to_element(btn_get).click().perform()
 
         # Sau đó, chờ thêm tối đa 90 giây để textarea có dữ liệu
-        WebDriverWait(driver, 200).until(
+        WebDriverWait(driver, 900).until(
             lambda d: d.find_element(By.ID, "txtKETQUA").get_attribute("value").strip() != ""
         )
         ketqua = driver.find_element(By.ID, "txtKETQUA").get_attribute("value").strip()
@@ -208,11 +208,20 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
 
     except (TimeoutException, NoSuchElementException) as e:
         logging.error(f"[{site['site']}] Lỗi tìm phần tử hoặc timeout trong Selenium: {e}")
+        # Chụp ảnh màn hình lỗi để debug
+        if driver:
+            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         return None
     except WebDriverException as e:
+        # Chụp ảnh màn hình lỗi để debug
+        if driver:
+            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         logging.error(f"[{site['site']}] Lỗi WebDriver (có thể do trình duyệt hoặc driver): {e}")
         return None
     except Exception as e:
+        # Chụp ảnh màn hình lỗi để debug
+        if driver:
+            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         logging.error(f"[{site['site']}] Lỗi không xác định trong run_selenium: {e}")
         return None
     finally:
@@ -399,7 +408,7 @@ def main_task():
 
 # --- LẬP LỊCH CHẠY HÀNG NGÀY ---
 # Lập lịch chạy job vào 02:30 sáng mỗi ngày
-schedule.every().day.at("02:00").do(main_task)
+schedule.every().day.at("03:00").do(main_task)
 #main_task()
 logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 03:00 mỗi ngày...")
 
