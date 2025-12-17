@@ -4,7 +4,6 @@ import logging
 import requests
 from datetime import datetime, timedelta
 
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
@@ -12,8 +11,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, WebDriverException
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager 
 
 import schedule
 
@@ -125,18 +122,17 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
     Trả về chuỗi JSON thô nếu thành công, ngược lại trả về None.
     """
     options = webdriver.ChromeOptions()
-    options.add_argument("--headless=new")  # Chạy Chrome ở chế độ ẩn
     options.add_argument("--remote-allow-origins=*")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.page_load_strategy = "eager" # Tăng tốc độ tải trang
     options.add_argument("--window-size=1920,1080") # Đặt kích thước cửa sổ để tránh các vấn đề về hiển thị
     options.add_argument("--log-level=3") # Chỉ hiển thị lỗi nghiêm trọng từ trình duyệt
+    options.add_argument("--headless=new")  # Chạy Chrome ở chế độ ẩn
 
     driver = None # Khởi tạo driver là None
     try:
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
+        driver = webdriver.Chrome(options=options)
         driver.set_page_load_timeout(150) # Tăng timeout tải trang để an toàn hơn
 
         login_url = LOGIN_URL.format(site["site"])
