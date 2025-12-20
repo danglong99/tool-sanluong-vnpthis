@@ -129,6 +129,7 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
     options.add_argument("--window-size=1920,1080") # Đặt kích thước cửa sổ để tránh các vấn đề về hiển thị
     options.add_argument("--log-level=3") # Chỉ hiển thị lỗi nghiêm trọng từ trình duyệt
     options.add_argument("--headless=new")  # Chạy Chrome ở chế độ ẩn
+    options.add_argument('--disable-gpu')
 
     driver = None # Khởi tạo driver là None
     try:
