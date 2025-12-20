@@ -204,20 +204,11 @@ def run_selenium(site: dict, ngay_day: str) -> str | None:
 
     except (TimeoutException, NoSuchElementException) as e:
         logging.error(f"[{site['site']}] Lỗi tìm phần tử hoặc timeout trong Selenium: {e}")
-        # Chụp ảnh màn hình lỗi để debug
-        if driver:
-            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         return None
     except WebDriverException as e:
-        # Chụp ảnh màn hình lỗi để debug
-        if driver:
-            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         logging.error(f"[{site['site']}] Lỗi WebDriver (có thể do trình duyệt hoặc driver): {e}")
         return None
     except Exception as e:
-        # Chụp ảnh màn hình lỗi để debug
-        if driver:
-            driver.save_screenshot(f"error_selenium_{site['site']}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
         logging.error(f"[{site['site']}] Lỗi không xác định trong run_selenium: {e}")
         return None
     finally:
@@ -404,8 +395,8 @@ def main_task():
 
 # --- LẬP LỊCH CHẠY HÀNG NGÀY ---
 # Lập lịch chạy job vào 02:30 sáng mỗi ngày
-schedule.every().day.at("03:00").do(main_task)
-#main_task()
+#schedule.every().day.at("03:00").do(main_task)
+main_task()
 logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 03:00 mỗi ngày...")
 
 # Vòng lặp chính để chạy các job đã được lập lịch
