@@ -1,5 +1,6 @@
 # 🐍 Use a lightweight and secure Python base image
 FROM python:3.11-slim
+FROM selenium/standalone-chrome:latest
 
 # 🛠️ Step 1: Install prerequisites for adding new repositories
 RUN apt-get update && \
