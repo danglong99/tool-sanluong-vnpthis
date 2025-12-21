@@ -57,7 +57,7 @@ TOKEN_USERNAME = "hisl2.sl"
 TOKEN_PASSWORD = "Sanluonghisl2a@"
 
 # Cấu hình Telegram Bot
-TELEGRAM_BOT_TOKEN = "7540006303:AAGPx4NvOOpJSlshbX42W_0YtVrJDuTdznY"
+TELEGRAM_BOT_TOKEN = "8554261011:AAFP5-DSgPTxtI8PB1xycwNGzWxEVYd2cl4"
 TELEGRAM_CHAT_ID = "-1002611093052" # Đặt ID nhóm chat Telegram của bạn
 
 # Cấu hình Logging
@@ -396,8 +396,8 @@ def main_task():
 
 # --- LẬP LỊCH CHẠY HÀNG NGÀY ---
 # Lập lịch chạy job vào 02:30 sáng mỗi ngày
-schedule.every().day.at("03:00").do(main_task)
-#main_task()
+#schedule.every().day.at("03:00").do(main_task)
+main_task()
 logging.info("🚀 Scheduler đã khởi động. Đang chờ job chạy lúc 03:00 mỗi ngày...")
 
 # Vòng lặp chính để chạy các job đã được lập lịch
