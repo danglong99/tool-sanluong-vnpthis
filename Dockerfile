@@ -2,6 +2,8 @@
 FROM python:3.11-slim
 FROM selenium/standalone-chrome:latest
 
+USER root
+
 # 🛠️ Step 1: Install prerequisites for adding new repositories
 RUN apt-get update && \
     apt-get install -y wget curl gnupg ca-certificates
